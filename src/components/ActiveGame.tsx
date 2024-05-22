@@ -193,7 +193,7 @@ const ActiveGame = () => {
         setTimeout(() => {
             navigate(`/game-result/${finalScore}`)
         }, 1200)
-    }
+    }//
 
     return (
         <Box backgroundColor={'transparent'} paddingBottom={'2%'} paddingTop={8} flex={1} height={'100vh'} width={'100%'} justifyContent={'space-evenly'} alignItems={'center'} >
