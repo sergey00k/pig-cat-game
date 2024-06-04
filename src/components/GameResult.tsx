@@ -46,7 +46,7 @@ const GameResult = () => {
                 <Text textAlign={'center'} fontFamily={'Main'} fontSize={12} color={'white'}>{(address != null) ? `${JSON.stringify(address).slice(1, 5)}...${JSON.stringify(address).slice(-5, -1)}` : 'Disconnected'}</Text>
             </Box>
             <VStack spacing={{ base: 16, md: 20, lg: 28, xl: 32 }} height={'70%'}>
-                <Box position={'relative'} px={8} py={4} bottom={20} alignItems={'center'} justifyContent={'center'} display={'flex'} backgroundColor={'#B3EF5A'} borderColor={'#81C021'} borderWidth={3} rounded={160}>
+                <Box position={'relative'} px={8} py={4} bottom={16} alignItems={'center'} justifyContent={'center'} display={'flex'} backgroundColor={'#B3EF5A'} borderColor={'#81C021'} borderWidth={3} rounded={160}>
                     <Text fontFamily={'Main'} color={'white'} textAlign={'center'} fontSize={24}>Final Score: {finalScore}</Text>
                 </Box>
                 <Button onClick={navigateActiveGame} style={{backgroundColor: 'transparent'}}>

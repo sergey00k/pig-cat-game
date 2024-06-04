@@ -213,8 +213,8 @@ const ActiveGame = () => {
                     </Box>
                 </Button>
                 <Flex width={'20%'} justifyContent={'center'} alignItems={'center'}>
-                    <Image ref={hatRef} {...(endGame ? { opacity: 0 } : {animation: `${slideKeyframes} ${speed}s linear infinite alternate`})} position={'relative'} zIndex={2} src={hat1} width={'110%'} bottom={'26%'} left={'54%'} />
-                    <Image ref={catRef} {...(endGame ? { opacity: 1, animation: `${fadeOutKeyframes} 1.2s forwards` } : {opacity: 1})}position={'relative'} zIndex={1} right={'50%'} src={cat1} width={'100%'} />
+                    <Image ref={hatRef} {...(endGame ? { opacity: 0 } : {animation: `${slideKeyframes} ${speed}s linear infinite alternate`})} position={'relative'} zIndex={2} src={hat2} width={'110%'} bottom={'24%'} left={'38%'} /> {/* left = 54% bottom = 26% */}
+                    <Image ref={catRef} {...(endGame ? { opacity: 1, animation: `${fadeOutKeyframes} 1.2s forwards` } : {opacity: 1})}position={'relative'} zIndex={1} right={'50%'} src={cat2} width={'100%'} />
                 </Flex>
             </VStack>
         </Box>
